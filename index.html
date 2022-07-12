@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Pagina Tiempo y Espacio</title>
+    <!-- CSS BOO -->
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <link rel="stylesheet" type="text/css" href="./icons/font/bootstrap-icons.css">
+  </head>
+  <body>
+      <div class="container"> 
+          <div class="row">
+              <div class="col-md-12 col-lg-12 text-center">
+                  <a class="fancybox" href="./assets/img/fondo1.jpg" data-fancybox-group="gallery" title="Astronauta"><img src="./assets/img/thumb-1.jpg"  alt="" /></a>            
+              </div>
+              <div class="col-md-12 col-lg-12 text-center">
+                <!-- Button trigger modal 1 -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <i class="bi bi-collection-play"></i> Ver Video   </button>             
+                  <!-- Modal -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Openning Dragon Ball Z</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe width="400" height="315" src="https://www.youtube.com/embed/cie7scVUdQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-lock"></i> Cerrar</button>         
+                          </div>
+                        </div>
+                    </div>
+                  </div> 
+                <!-- Button trigger modal 2 -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                <i class="bi bi-geo-alt-fill"></i>Ver Mapa</button>                   
+                 <!-- Modal -->
+                  <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                               <h5 class="modal-title" id="staticBackdropLabel2">Area 51</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73044.46799970549!2d-115.87404810798276!3d37.25135082291408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80b81baaba3e8c81%3A0x970427e38e6237ae!2s%C3%81rea%2051%2C%20Nevada%2C%20EE.%20UU.!5e1!3m2!1ses-419!2scl!4v1654661815246!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div class="modal-footer">
+                               <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-lock"></i> Cerrar</button>         
+                            </div>
+                          </div>
+                        </div>        
+                    </div>   
+              </div> 
+          </div>  
+        </div> 
+      <!-- Js  -->
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>    
+      <script src="./js/jquery.fancybox.js"></script>
+      <script src="./assets/js/script.js"></script>        
+      <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>     
+
+
